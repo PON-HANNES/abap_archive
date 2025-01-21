@@ -23,7 +23,7 @@ FUNCTION zfi_opt_archive_correspondence.
     EXIT.
   ENDIF.
   CASE i_bkorm-event.
-    WHEN 'SAP19' OR 'Z_19'. " HANNESM
+    WHEN 'SAP19' OR 'Z_19' OR 'ZEDOC'. " HANNESM
     WHEN OTHERS.
       EXIT.
   ENDCASE.
@@ -45,7 +45,7 @@ FUNCTION zfi_opt_archive_correspondence.
 
       " Select Document Type
       CASE i_bkorm-event.
-        WHEN 'SAP19' OR 'Z_19'. " Debitorenrechnung
+        WHEN 'SAP19' OR 'Z_19' OR 'ZEDOC'. " Debitorenrechnung
           toa_dara-ar_object = 'ZFI_CORR'.
         WHEN OTHERS.
           EXIT.
