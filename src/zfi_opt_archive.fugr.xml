@@ -4,7 +4,6 @@
   <asx:values>
    <AREAT>Optische Archivierung Korrespondenzen</AREAT>
    <INCLUDES>
-    <SOBJ_NAME>LZFI_OPT_ARCHIVETOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZFI_OPT_ARCHIVE</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
